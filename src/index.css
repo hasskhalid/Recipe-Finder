@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(45deg, #FFD580, #d8d8d4);
 }
 
 body {
@@ -16,8 +17,15 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h1{
+  font-size: 8rem;
+  text-align: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
 }
 
 h4{

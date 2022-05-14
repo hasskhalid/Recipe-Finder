@@ -17,7 +17,8 @@ function Search() {
     <FormStyle onSubmit={submitHandler}>
         <div>
             <FaSearch></FaSearch>
-           <input onChange={(e) => setInput(e.target.value)} type="text" value={input}/> 
+           <input onChange={(e) => setInput(e.target.value)} type="text" value={input}/>
+           <h1>Please Search a Meal!</h1> 
         </div>
     </FormStyle>
   )
@@ -46,6 +47,14 @@ const FormStyle = styled.form`
         left: 0%;
         transform: translate(100%, -50%);
         color: white;
+        background: #494949;
+    }
+    h1{
+        position: relative;
+        top: 50%;
+        font-size: 1.2rem;
+        color: black;
+        text-align: center;  
     }
 `;
 export default Search;
