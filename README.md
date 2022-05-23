@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Recipe Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+- This application allows users to enter any food and see the ingredients or recipe for it.
+  
+- My motivation for this project was to learn how to work with an API and how API calls work.
+  
+- I built this project because I personally love food. Seeing my passion for food come to life was inspiring.
+  
+- This application is very simple and user-friendly. This makes it easy for people to find and discover meals while also showing them how to make it! A one-stop shop for recipes.
+  
+## Installation
+1. Install VSCode
+2. Install AutoRename, Better Components, Bracket Lens, CSS Peek, ES7+, GitLens, Live Sass Compiler, Live Server, TODO Tree, Remote extension via VSCode
+3. Create Vercel Profile
+4. Create Remote Repository
+5. Connect to Github using git
+6. Upload remote branch to repository
+7. Git add/commit after every change or feature added
+8.  Connect master branch to Vercel using the Vercel Github Repository method
+9.  Deploy Application!
 
-## Available Scripts
+## Usage
+### This site showcased a simple search engine in which users can type a meal or food they want then pressing Enter will show them a grid of cards of meals related to their search. User can select any card and it will take them to a page that showcased the ingredients. User can also toggle the recipe button and see that as well.
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+- Inspired by Google search engine, the application features a simple search bar which allows users to search for meals
+- Enables users to browse through multiple meals using the Spoonacular API 
+- Each meal card can be selected and takes them to a page that displays the recipe/ingredients for each meal
