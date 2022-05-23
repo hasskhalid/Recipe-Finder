@@ -1,4 +1,5 @@
 # Recipe Finder
+### Recipe finder application developed using JavaScript, React.JS, Node.JS, Spoonacular API, CSS, and Git
 
 ## Description
 - This application allows users to enter any food and see the ingredients or recipe for it.
