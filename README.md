@@ -1,6 +1,6 @@
 # Recipe Finder
 ### Recipe finder application developed using JavaScript, React.JS, Node.JS, Spoonacular API, CSS, and Git
-### Link: https://hass-recipe-finder.vercel.app/searched/home/app.js
+### Link: [https://hass-recipe-finder.vercel.app/searched/home/app.js](https://hass-recipe-finder.vercel.app)
 
 ## Description
 - This application allows users to enter any food and see the ingredients or recipe for it.
